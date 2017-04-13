@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.dx168.fastdex.sample.common.Utils1;
+
 
 /**
  * Created by tong on 17/10/3.
@@ -34,7 +36,7 @@ public class MainActivity extends Activity {
 
 
         String s2 = getString(R.string.s2);
-        Toast.makeText(this,"1" + " | " + s1 + " | " + s2 + " | " + s3,Toast.LENGTH_LONG).show();
+        Toast.makeText(this, Utils1.str + " 1 " + " | " + s1 + " | " + s2 + " | " + s3,Toast.LENGTH_LONG).show();
 
         new Runnable(){
             @Override

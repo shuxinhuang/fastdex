@@ -24,6 +24,7 @@ public class FastdexVariant {
     boolean hasDexCache
     boolean firstPatchBuild
     final TagManager tagManager
+    boolean initialized
 
     FastdexVariant(Project project, Object androidVariant) {
         this.project = project
@@ -52,6 +53,10 @@ public class FastdexVariant {
     * 5、检查全量的代码jar包是否存在(app/build/fastdex/${variantName}/injected-combined.jar)
     */
     void prepareEnv() {
+        if (initialized) {
+            return
+        }
+        initialized = true
         hasDexCache = FastdexUtils.hasDexCache(project,variantName)
         if (hasDexCache) {
             File diffResultSetFile = FastdexUtils.getDiffResultSetFile(project,variantName)

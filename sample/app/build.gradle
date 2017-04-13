@@ -98,6 +98,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
+    debugCompile project(':common')
+    compile project(':common2')
+
     compile 'com.android.support:multidex:1.0.1'
     compile 'com.jakewharton:butterknife:8.0.1'
     apt 'com.jakewharton:butterknife-compiler:8.0.1'

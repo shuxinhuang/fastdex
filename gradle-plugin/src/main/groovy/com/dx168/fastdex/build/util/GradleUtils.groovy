@@ -6,6 +6,7 @@ import com.android.builder.model.Version
 import com.google.common.collect.Lists
 import com.android.build.gradle.internal.transforms.JarMerger
 import org.gradle.api.GradleException
+import org.gradle.api.artifacts.ProjectDependency
 import java.lang.reflect.InvocationHandler
 import java.lang.reflect.Method
 import java.lang.reflect.Proxy
@@ -58,6 +59,26 @@ public class GradleUtils {
             }
         }
         return result
+    }
+
+    /**
+     * 获取所有工程依赖
+     * @param project
+     * @param buildTypeName
+     * @return
+     */
+    public static List<ProjectDependency> getDependencyProjects(Project project,String buildTypeName) {
+        List<Project> projects = new ArrayList<>()
+        project.configurations.all.findAll { !it.allDependencies.empty }.each { c ->
+            if (c.name.toString().equals("_${buildTypeName}Compile".toString())) {
+                c.allDependencies.each { dep ->
+                    if (dep instanceof ProjectDependency) {
+                        projects.add(dep)
+                    }
+                }
+            }
+        }
+        return projects
     }
 
     /**
