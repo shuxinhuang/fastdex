@@ -109,6 +109,9 @@ dependencies {
     compile "io.reactivex:rxandroid:1.2.0"
     compile "io.reactivex:rxjava:1.1.5"
     compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.bigkoo:alertview:1.0.2'
+    compile 'com.bigkoo:pickerview:2.0.8'
+
 
 //    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
 //    compile 'org.xutils:xutils:3.3.36'
@@ -132,8 +135,6 @@ dependencies {
 //    compile 'com.facebook.fresco:fresco:1.1.0'
 //    compile 'com.google.guava:guava:18.0'
 //    compile 'com.android.support:design:23.4.0'
-//    compile 'com.bigkoo:alertview:1.0.2'
-//    compile 'com.bigkoo:pickerview:2.0.8'
 
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'

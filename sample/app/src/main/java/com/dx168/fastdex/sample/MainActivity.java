@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.dx168.fastdex.sample.common.Utils1;
+import com.dx168.fastdex.sample.common2.Utils1;
 
 
 /**

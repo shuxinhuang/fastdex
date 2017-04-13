@@ -1,7 +1,10 @@
 package com.dx168.fastdex.build.transform
 
+import com.android.build.api.transform.DirectoryInput
+import com.android.build.api.transform.JarInput
 import com.android.build.api.transform.Transform
 import com.android.build.api.transform.TransformException
+import com.android.build.api.transform.TransformInput
 import com.android.build.api.transform.TransformInvocation
 import com.dx168.fastdex.build.util.ClassInject
 import com.dx168.fastdex.build.util.FastdexUtils
@@ -38,6 +41,20 @@ class FastdexJarMergingTransform extends TransformProxy {
             }
         }
         else {
+//            Set<File> dirClasspaths = new HashSet<>();
+//            for (TransformInput input : transformInvocation.getInputs()) {
+//                Collection<JarInput> directoryInputs = input.getJarInputs()
+//                if (directoryInputs != null) {
+//                    for (JarInput directoryInput : directoryInputs) {
+//                        dirClasspaths.add(directoryInput.getFile())
+//                    }
+//                }
+//            }
+//            for (File f : dirClasspaths) {
+//                fastdexVariant.project.logger.error("==fastdex jarInput: ${f}")
+//            }
+
+
             //inject dir input
             Set<File> directoryInputFiles = FastdexUtils.getDirectoryInputFiles(transformInvocation)
             ClassInject.injectDirectoryInputFiles(fastdexVariant,directoryInputFiles)

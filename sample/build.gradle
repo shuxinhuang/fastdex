@@ -6,9 +6,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.android.tools.build:gradle:2.2.3'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
-        classpath 'com.dx168.fastdex:gradle-plugin:0.0.7-debug'
+        classpath 'com.dx168.fastdex:gradle-plugin:0.0.8-debug'
         classpath "me.tatarka:gradle-retrolambda:3.6.0"
 
     }

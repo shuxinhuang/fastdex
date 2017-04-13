@@ -1,0 +1,69 @@
+gradle-2.3.1
+==fastdex jarInput: /Users/tong/.android/build-cache/aab93e3157da89b83efad8438886dcc0d6bbefd4/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/381bfbacecd3a12d238ae2fad622413f08339013/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/0844c9f32a54b84f99ad4d6080fc2ff8059f645e/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/483504dc2cafddf78f755e29a24802c575063d7c/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/libs/fm-sdk-2.1.2.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.1/39eff75ddcb987ff65888361a29f489c178429a3/okio-1.0.1.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.4-beta2/449777cd466ac0a16f7e8d0dc508e70e2cdd13a9/leakcanary-analyzer-1.4-beta2.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.5/7941cd2c2c8ec006800d75c35f8a9dacf892ab93/otto-1.3.5.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.2/fd65b84d12d6adc77ec0e4fcaca623fc391d8679/haha-2.0.2.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/common/build/intermediates/bundles/default/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.4-beta2/6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92/leakcanary-watcher-1.4-beta2.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/e60044d2e17dc6068e49127cee04afef11998c76/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/e79dd3cc3c436c068e8f5844fa6ca46b434f19d1/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/6fa2c6a68cf7e41aa5cadc27194133092393c8d1/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/common2/build/intermediates/bundles/default/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/19bdff21d038cb7c3efecf47881ebf7fbb7779f7/output/jars/libs/internal_impl-21.0.3.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/19bdff21d038cb7c3efecf47881ebf7fbb7779f7/output/jars/classes.jar
+
+gradle-2.3.0
+==fastdex jarInput: /Users/tong/.android/build-cache/aab93e3157da89b83efad8438886dcc0d6bbefd4/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/381bfbacecd3a12d238ae2fad622413f08339013/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/0844c9f32a54b84f99ad4d6080fc2ff8059f645e/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/483504dc2cafddf78f755e29a24802c575063d7c/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/libs/fm-sdk-2.1.2.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.1/39eff75ddcb987ff65888361a29f489c178429a3/okio-1.0.1.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.4-beta2/449777cd466ac0a16f7e8d0dc508e70e2cdd13a9/leakcanary-analyzer-1.4-beta2.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.5/7941cd2c2c8ec006800d75c35f8a9dacf892ab93/otto-1.3.5.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.2/fd65b84d12d6adc77ec0e4fcaca623fc391d8679/haha-2.0.2.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/common/build/intermediates/bundles/default/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.4-beta2/6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92/leakcanary-watcher-1.4-beta2.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/e60044d2e17dc6068e49127cee04afef11998c76/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/e79dd3cc3c436c068e8f5844fa6ca46b434f19d1/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/6fa2c6a68cf7e41aa5cadc27194133092393c8d1/output/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/common2/build/intermediates/bundles/default/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/19bdff21d038cb7c3efecf47881ebf7fbb7779f7/output/jars/libs/internal_impl-21.0.3.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar
+==fastdex jarInput: /Users/tong/.android/build-cache/19bdff21d038cb7c3efecf47881ebf7fbb7779f7/output/jars/classes.jar
+
+gradle-2.2.3
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/sample/common2/unspecified/jars/classes.jar
+==fastdex jarInput: /Users/tong/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/libs/fm-sdk-2.1.2.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.1/39eff75ddcb987ff65888361a29f489c178429a3/okio-1.0.1.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.bigkoo/alertview/1.0.2/jars/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.4-beta2/449777cd466ac0a16f7e8d0dc508e70e2cdd13a9/leakcanary-analyzer-1.4-beta2.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.5/7941cd2c2c8ec006800d75c35f8a9dacf892ab93/otto-1.3.5.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.2/fd65b84d12d6adc77ec0e4fcaca623fc391d8679/haha-2.0.2.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.4-beta2/6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92/leakcanary-watcher-1.4-beta2.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.bigkoo/pickerview/2.0.8/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/sample/common/unspecified/jars/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.0.1/345b89f45d02d8b09400b472fab7b7e38f4ede1f/butterknife-annotations-8.0.1.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.0.1/jars/classes.jar
+==fastdex jarInput: /Users/tong/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.4-beta2/jars/classes.jar
+==fastdex jarInput: /Users/tong/Projects/fastdex/sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar
+
