@@ -1,3 +1,9 @@
+## 0.0.9 (2017-4-14)
+
+Bugfixes:
+
+   - 修复customJavacTask没有正确依赖generateSources任务的问题
+
 ## 0.0.7 (2017-4-13)
 
 Features:
