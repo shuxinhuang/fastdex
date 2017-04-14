@@ -27,7 +27,6 @@ import java.nio.file.attribute.BasicFileAttributes
  */
 public class FastdexCustomJavacTask extends DefaultTask {
     FastdexVariant fastdexVariant
-    Task compileTask
 
     FastdexCustomJavacTask() {
         group = 'fastdex'
@@ -35,6 +34,7 @@ public class FastdexCustomJavacTask extends DefaultTask {
 
     @TaskAction
     void compile() {
+        def compileTask = fastdexVariant.androidVariant.javaCompile
         compileTask.enabled = true
 
         //检查缓存的有效性
@@ -91,11 +91,10 @@ public class FastdexCustomJavacTask extends DefaultTask {
         File androidJar = new File("${FastdexUtils.getSdkDirectory(project)}${File.separator}platforms${File.separator}${project.android.getCompileSdkVersion()}${File.separator}android.jar")
         File classpathJar = FastdexUtils.getInjectedJarFile(project,fastdexVariant.variantName)
 
-        def javaCompileTask = fastdexVariant.androidVariant.javaCompile
-        //def classpath = project.files(classpathJar.absolutePath) + javaCompileTask.classpath +
+        //def classpath = project.files(classpathJar.absolutePath) + compileTask.classpath +
         def classpath = project.files(classpathJar.absolutePath)
-        def fork = javaCompileTask.options.fork
-        def executable = javaCompileTask.options.forkOptions.executable
+        def fork = compileTask.options.fork
+        def executable = compileTask.options.forkOptions.executable
 
         project.logger.error("==fastdex executable ${executable}")
         //处理retrolambda
@@ -115,8 +114,8 @@ public class FastdexCustomJavacTask extends DefaultTask {
         project.ant.javac(
                 srcdir: patchJavaFileDir,
                 destdir: patchClassesFileDir,
-                source: javaCompileTask.sourceCompatibility,
-                target: javaCompileTask.targetCompatibility,
+                source: compileTask.sourceCompatibility,
+                target: compileTask.targetCompatibility,
                 encoding: 'UTF-8',
                 bootclasspath: androidJar,
                 classpath: joinClasspath(classpath),

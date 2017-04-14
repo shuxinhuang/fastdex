@@ -98,19 +98,11 @@ class FastdexPlugin implements Plugin<Project> {
                     project.logger.error("====================fastdex====================")
                 }
                 else {
-                    Task compileTask = project.tasks.getByName("compile${variantName}JavaWithJavac")
+
                     Task customJavacTask = project.tasks.create("fastdexCustomCompile${variantName}JavaWithJavac", FastdexCustomJavacTask)
                     customJavacTask.fastdexVariant = fastdexVariant
-                    customJavacTask.compileTask = compileTask
-                    compileTask.dependsOn customJavacTask
-
-                    Task generateSourcesTask = getGenerateSourcesTask(project,variantName)
-                    if (generateSourcesTask != null) {
-                        compileTask.mustRunAfter generateSourcesTask
-                    }
-                    else {
-                        compileTask.mustRunAfter variantOutput.processResources
-                    }
+                    customJavacTask.mustRunAfter getGenerateSourcesTask(project,variantName)
+                    variant.javaCompile.dependsOn customJavacTask
 
                     Task multidexlistTask = getTransformClassesWithMultidexlistTask(project,variantName)
                     if (multidexlistTask != null) {
@@ -195,11 +187,7 @@ class FastdexPlugin implements Plugin<Project> {
 
     Task getGenerateSourcesTask(Project project, String variantName) {
         String generateSourcesTaskName = "generate${variantName}Sources"
-        try {
-            return  project.tasks.getByName(generateSourcesTaskName)
-        } catch (Throwable e) {
-            return null
-        }
+        project.tasks.getByName(generateSourcesTaskName)
     }
 
     Task getTransformClassesWithMultidexlistTask(Project project, String variantName) {
